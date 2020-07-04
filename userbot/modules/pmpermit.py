@@ -214,13 +214,13 @@ async def disapprovepm(disapprvpm):
         name0 = str(aname.first_name)
 
     await disapprvpm.edit(
-        f"[{name0}](tg://user?id={disapprvpm.chat_id}) `Chat saat ini sudah tidak aktif, silahkan setujui ulang nanti :)`")
+        f"[{name0}](tg://user?id={disapprvpm.chat_id}) `Chat sekarang sudah tidak aktif, Tolong jangan SPAM CHAT :)`")
 
     if BOTLOG:
         await disapprvpm.client.send_message(
             BOTLOG_CHATID,
             f"[{name0}](tg://user?id={disapprvpm.chat_id})"
-            "`Chat sekarang sudah tidak aktif, Tolong jangan SPAM CHAT`",
+            "`SUKSES, Disapprove !`",
         )
 
 
