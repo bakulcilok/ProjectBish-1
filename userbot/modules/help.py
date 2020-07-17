@@ -19,10 +19,10 @@ async def help(event):
         else:
             await event.edit("`Hadehhh ente -_- kelamaan jomlo ya gini, masukin module aja salah wkwk`")
     else:
-        head = "**Help for** [DaengServer](https://github.com/daenghunter/ProjectBish-1)"
+        head = "**Help for** [BakulCilok](https://github.com/bakulcilok/ProjectBish-1)"
         head2 = "Silahkan menggunakan module yang disediakan dibawah :)"
         head3 = "Contoh: .help <module name>"
-        head4 = "List Perintah Yang Aktif Saat Ini: "
+        head4 = "List Perintah Yang Aktif Saat Ini : "
         string = ""
         sep1 = "••••••••••••••••••••••••••••••••••••••••••••••"
         sep2 = "••••••••••••••••••••••••••••••••••••••••••••••"
